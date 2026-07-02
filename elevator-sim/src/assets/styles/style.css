@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+:root {
+  --primary: #EA7311;
+  --secondary: #06789D;
+}
+
+body {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  min-height: 100vh;
+}
+
+.color-primary {
+  color: var(--primary) !important;
+}
+
+.bgcolor-primary {
+  background-color: var(--primary) !important;
+}
+
+.bgcolor-secondary-25 {
+  background-color: rgba(6, 120, 157, 0.15) !important;
+}
+
+.border-secondary-50 {
+  border-color: rgba(6, 120, 157, 0.4) !important;
+}
+
+/* Boutons custom relies au style ubiznews */
+.btn-outline-primary {
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+
+.btn-outline-primary:hover:not(:disabled) {
+  background-color: var(--primary) !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-primary:disabled {
+  border-color: rgba(234, 115, 17, 0.5) !important;
+  color: rgba(234, 115, 17, 0.5) !important;
+  cursor: not-allowed;
+}
+
+.btn-warning {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+}
+
+.btn-secondary {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+}
+
+.btn-outline-danger {
+  border-radius: 0 !important;
+}
+
+.btn-outline-success {
+  border-radius: 0 !important;
+}
+
+/* Bordures carrees */
+.border, .border-bottom {
+  border-color: rgba(6, 120, 157, 0.3) !important;
+}
+
+.floor-row {
+  transition: background-color 0.2s ease;
+}
+
+.floor-row:hover {
+  background-color: rgba(6, 120, 157, 0.05);
+}
+
+.elevator-cab {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
