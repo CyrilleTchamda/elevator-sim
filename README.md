@@ -1,6 +1,12 @@
 # Simulateur d'Ascenseur
 
 Ce projet est un simulateur d'ascenseur basé sur l'algorithme SCAN (ou "algorithme de l'ascenseur"), conçu dans le cadre d'un test technique. L'application est développée en React et présente une interface interactive permettant de tester et suivre le comportement de la cabine en temps réel.
+## Stack Technique
+
+* **Vite** : Environnement de développement et outil de build moderne et rapide.
+* **React 19** : Bibliothèque JavaScript pour concevoir l'interface utilisateur à l'aide de composants fonctionnels et de hooks.
+* **Bootstrap 5 (CDN)** : Framework CSS utilisé pour la grille de mise en page réactive.
+* **CSS 3 (Custom)** : Styles personnalisés (police, structure, couleurs et animations d'état de la cabine).
 
 ## Installation et Lancement
 
